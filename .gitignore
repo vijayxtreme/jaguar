@@ -1,5 +1,6 @@
 bower_components
 images
+.sass-cache
 css/bootstrap-theme.css
 css/bootstrap-theme.css.map
 css/bootstrap.css
