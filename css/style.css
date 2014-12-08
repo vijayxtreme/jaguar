@@ -1,4 +1,202 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, br, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.wrapper {
+  width: 1130px;
+  margin: 0 auto; }
+
 body {
-  color: black; }
+  font-family: "Avenir", Arial, sans-serif; }
+
+a:hover {
+  text-decoration: none; }
+
+header {
+  height: 102px;
+  padding-left: 100px;
+  padding-right: 100px;
+  letter-spacing: 1.3px; }
+  header a {
+    color: #000; }
+  header a:visited, header a:active, header a:hover {
+    color: #000; }
+  header img {
+    float: left;
+    width: 140px;
+    padding-top: 16px; }
+  header ul {
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    line-height: 29px;
+    padding-top: 49px; }
+  header li {
+    display: inline;
+    padding-left: 46px; }
+
+div.carousel {
+  background: url("../images/F-Type-R-Coupe.jpg");
+  background-position: 0 -27px;
+  height: 470px;
+  position: relative;
+  color: #fff; }
+  div.carousel .info {
+    width: 471px;
+    height: 185px;
+    padding-top: 28px;
+    padding-left: 100px;
+    background: #18282e;
+    opacity: 0.7;
+    position: absolute;
+    top: 70px;
+    font-size: 30px;
+    line-height: 46px; }
+  div.carousel .subinfo {
+    width: 471px;
+    height: 86px;
+    padding-top: 20px;
+    padding-left: 100px;
+    position: absolute;
+    top: 284px;
+    background: #aebec5;
+    opacity: 0.7;
+    font-size: 12px;
+    line-height: 22px; }
+    div.carousel .subinfo p {
+      width: 325px; }
+  div.carousel .selected {
+    background: url("../images/selected.png");
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 435px;
+    left: 528px; }
+  div.carousel .unselected {
+    background: url("../images/unselected.png");
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 435px;
+    left: 556px; }
+
+section {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+  width: 931px;
+  background: #ebedef; }
+  section h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 60.65px;
+    padding: 36px 0; }
+  section .box {
+    font-size: 12px;
+    line-height: 22px;
+    width: 310.33333px;
+    float: left; }
+    section .box p {
+      width: 280px; }
+
+div.signup {
+  height: 426px;
+  background-image: url("../images/jaguar-signup.jpg");
+  background-color: #131d21;
+  background-blend-mode: multiply;
+  color: #fff;
+  position: relative; }
+  div.signup h1 {
+    position: absolute;
+    text-align: center;
+    top: 155px;
+    left: 286px;
+    font-size: 36px;
+    line-height: 60.65px;
+    letter-spacing: 3.36px; }
+  div.signup button {
+    position: absolute;
+    top: 228px;
+    left: 465px;
+    height: 44px;
+    width: 191px;
+    background: #687b82;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 2.4px; }
+  div.signup button:hover {
+    top: 229px;
+    left: 466px;
+    cursor: pointer; }
+
+div.interior {
+  height: 750px; }
+  div.interior div.interior-car1 {
+    background: url("../images/interior-car1.jpg"); }
+  div.interior div.interior-car2 {
+    background: url("../images/interior-car2.jpg");
+    background-position: 0 -1px; }
+  div.interior div.interior-text {
+    background: #aebec5; }
+  div.interior div {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    height: 375px;
+    width: 563px;
+    float: left; }
+
+div.photo_gallery {
+  height: 690px; }
+  div.photo_gallery div.image_wrap {
+    margin: 0 auto;
+    width: 911px; }
+  div.photo_gallery img {
+    display: inline-block; }
+
+div.pricing {
+  height: 599px;
+  background: url("../images/pricing-gray.jpg"); }
+
+footer {
+  height: 736px;
+  position: relative;
+  width: 100%; }
+  footer div.footer_content {
+    position: absolute;
+    height: 342px;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 0;
+    opacity: 0.9;
+    background-color: #131d21;
+    background-blend-mode: multiply; }
+    footer div.footer_content div {
+      width: 310px;
+      float: left;
+      color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
