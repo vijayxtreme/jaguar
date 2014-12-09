@@ -1,0 +1,304 @@
+@import 'base';
+
+@media screen and (max-width:1024px){
+	.wrapper {
+		width:100%;
+
+	}
+
+	header {
+
+		letter-spacing: 1.3px;
+		
+		a {
+			color: #000;
+			
+		}
+		a:visited, a:active, a:hover {
+			color: #000;
+		}
+
+		img {
+			width: 140px;
+			padding-top:16px;
+		}
+
+		ul {
+			display:none;
+			font-size: 14px;
+			line-height: 29px;
+		}
+
+		li {
+			
+
+		}
+	}
+
+	div.carousel {
+		background: url('../images/F-Type-R-Coupe.jpg');
+		background-position: 0 -27px;
+		height: 470px;
+		clear:both;
+		
+		color: #fff;
+	
+		.info {
+			// width: 471px;
+			// height: 185px;
+			background: #18282e;
+			opacity: 0.7;
+			// position: absolute;
+			// top:70px;
+
+		}
+		.subinfo {
+			// width: 471px;
+			// height: 86px;
+			
+
+		
+			background: #aebec5;
+			opacity: 0.7;
+			// font-size: 12px;
+			// line-height: 22px;
+
+			p {
+				// width: 325px;
+			}
+		}
+
+		.unselected {
+			background: url('../images/select.png');
+			background-position:0 -16px;
+			// width: 16px;
+			// height:16px;
+			
+			// top:435px;
+			// left:528px;
+		}
+		.unselected:hover{
+			background-position:0 0px;
+		}
+
+	}
+
+	section {
+		//$width: 931px;
+		
+		//width: $width;
+		background: #ebedef;
+
+		h1{
+			
+		}
+
+		.box {
+
+			
+		
+			p{
+				
+			}
+		}
+	}
+
+	div.signup {
+
+		height: 426px; 
+		background-image: url('../images/jaguar-signup.jpg');
+		background-color: #131d21;
+		background-blend-mode: multiply;
+		color: #fff;
+		position: relative;
+
+		h1{
+			position:absolute;
+			text-align: center;
+			
+			
+			letter-spacing: 3.36px;
+		}
+		button {
+			position: absolute;
+			
+			background: #687b82;
+			border-radius:5px;
+			border:1px solid #fff;
+			color: #fff;
+			letter-spacing: 2.4px;
+		}
+		button:hover {
+			cursor: pointer;
+		}
+	}
+
+	div.interior {
+		
+
+		div.interior-car1 {
+			background:url('../images/interior-car1.jpg');
+			border-top:1px solid #fff;
+			border-right:1px solid #fff;
+		}
+		div.interior-car2 {
+			background:url('../images/interior-car2.jpg');
+			background-position: 0 -1px;
+			border-top:1px solid #fff;
+		}
+		div.interior-text {
+			background: #aebec5;
+			border-top:1px solid #fff;
+			border-right:1px solid #fff;
+
+			h2{
+				letter-spacing: 4.32px;
+			}
+
+			p {
+				margin:0 auto;
+			}
+		}
+
+		div {
+			
+			float:left;
+		}
+
+	}
+
+	div.photo_gallery{
+
+		
+		h1 {
+			letter-spacing: 7.2px;
+			text-align: center;
+		}
+		p {
+
+			margin: 0 auto;
+			text-align: center;
+
+		}
+
+		div.image_wrap {
+			margin: 0 auto;
+		}
+		img {
+		
+		}
+	}
+
+	div.pricing {
+		
+		background:url('../images/pricing-gray.jpg');
+
+		div.pricing-wrap {
+			margin: 0 auto;
+		}
+
+		h1 {
+			letter-spacing: 7.2px;
+		}
+		h1 {
+			text-align:center;
+		}
+		div.dollar {
+			
+		}
+
+
+		div.pricing-text {
+			background: #fff;
+			position: relative;
+
+			p {
+				clear:both;
+
+			}
+
+			h2, h3 {
+				float: left;
+			}
+
+			h2 {
+			}
+
+			h3 {
+			
+			}
+
+			.price-arr {
+				position: absolute;
+				background: url('../images/price_arr.png');
+				
+			}
+
+		}
+		div.pricing-text:nth-child(3){
+			
+		}
+
+		div.membership_bottom {
+			
+			background: #9eaeb3;
+		
+
+		}
+
+		
+		span {
+		
+		}
+
+		p {
+			clear:both;
+			text-align: center;
+		}
+
+	}
+
+	footer {
+
+		div.footer_content {
+				
+				background-color: #131d21;
+				background-blend-mode: multiply;
+				width:100%;
+			
+			
+			div {
+
+				color: #fff;
+
+				h3 {
+					
+					letter-spacing: 4.8px;
+				}
+
+				p {
+					
+					line-height: 22px;
+				}
+
+
+
+				button.tags {
+					border:1px solid white;
+					border-radius:2px;
+					background:  rgba(255, 255, 255, 0);
+					color: #fff;
+				
+				}
+			}
+
+			div.tags-box {
+			
+			}
+			div.contact {
+
+			}
+
+		}
+	}
+}

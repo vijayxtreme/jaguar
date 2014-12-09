@@ -24,308 +24,301 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.wrapper {
-  width: 1130px;
-  margin: 0 auto; }
-
 body {
   font-family: "Avenir", Arial, sans-serif; }
 
 a {
   text-decoration: none; }
 
-header {
-  height: 102px;
-  padding-left: 100px;
-  padding-right: 100px;
-  letter-spacing: 1.3px; }
-  header a {
-    color: #000; }
-  header a:visited, header a:active, header a:hover {
-    color: #000; }
-  header img {
-    float: left;
-    width: 140px;
-    padding-top: 16px; }
-  header ul {
-    float: right;
-    text-align: right;
-    font-size: 14px;
-    line-height: 29px;
-    padding-top: 49px; }
-  header li {
-    display: inline;
-    padding-left: 46px; }
-
-div.carousel {
-  background: url("../images/F-Type-R-Coupe.jpg");
-  background-position: 0 -27px;
-  height: 470px;
-  position: relative;
-  color: #fff; }
-  div.carousel .info {
-    width: 471px;
-    height: 185px;
-    padding-top: 28px;
-    padding-left: 100px;
-    background: #18282e;
-    opacity: 0.7;
-    position: absolute;
-    top: 70px;
-    font-size: 30px;
-    line-height: 46px;
-    letter-spacing: 3.0px; }
-  div.carousel .subinfo {
-    width: 471px;
-    height: 86px;
-    padding-top: 20px;
-    padding-left: 100px;
-    position: absolute;
-    top: 284px;
-    background: #aebec5;
-    opacity: 0.7;
-    font-size: 12px;
-    line-height: 22px; }
-    div.carousel .subinfo p {
-      width: 325px; }
-  div.carousel .unselected {
-    background: url("../images/select.png");
-    background-position: 0 -16px;
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: 435px;
-    left: 528px; }
-  div.carousel .unselected:hover {
-    background-position: 0 0px; }
-  div.carousel .selected {
-    background: url("../images/select.png");
-    background-position: 0 0px;
-    width: 16px;
-    height: 16px;
-    position: absolute;
-    top: 435px;
-    left: 528px; }
-
-section {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 60px;
-  width: 931px;
-  background: #ebedef; }
-  section h1 {
-    text-align: center;
-    font-size: 40px;
-    line-height: 60.65px;
-    padding: 36px 0; }
-  section .box {
-    font-size: 12px;
-    line-height: 22px;
-    width: 310.33333px;
-    float: left; }
-    section .box p {
-      width: 280px; }
-
-div.signup {
-  height: 426px;
-  background-image: url("../images/jaguar-signup.jpg");
-  background-color: #131d21;
-  background-blend-mode: multiply;
-  color: #fff;
-  position: relative; }
-  div.signup h1 {
-    position: absolute;
-    text-align: center;
-    top: 155px;
-    left: 286px;
-    font-size: 36px;
-    line-height: 60.65px;
-    letter-spacing: 3.36px; }
-  div.signup button {
-    position: absolute;
-    top: 228px;
-    left: 465px;
-    height: 44px;
-    width: 191px;
-    background: #687b82;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    color: #fff;
-    font-size: 24px;
-    letter-spacing: 2.4px; }
-  div.signup button:hover {
-    top: 229px;
-    left: 466px;
-    cursor: pointer; }
-
-div.interior {
-  height: 750px; }
-  div.interior div.interior-car1 {
-    background: url("../images/interior-car1.jpg");
-    height: 375px;
-    width: 564px;
-    border-top: 1px solid #fff;
-    border-right: 1px solid #fff; }
-  div.interior div.interior-car2 {
-    background: url("../images/interior-car2.jpg");
-    background-position: 0 -1px;
-    height: 375px;
-    width: 564px;
-    border-top: 1px solid #fff; }
-  div.interior div.interior-text {
-    height: 297px;
-    padding-top: 78px;
-    background: #aebec5;
-    width: 564px;
-    border-top: 1px solid #fff;
-    border-right: 1px solid #fff; }
-    div.interior div.interior-text h2 {
-      font-size: 24px;
-      line-height: 48px;
-      letter-spacing: 4.32px;
-      padding-left: 90px; }
-    div.interior div.interior-text p {
-      width: 383px;
-      margin: 0 auto;
-      font-size: 12px;
-      line-height: 22px; }
-  div.interior div {
-    float: left; }
-
-div.photo_gallery {
-  height: 690px;
-  padding-bottom: 36px; }
-  div.photo_gallery h1 {
-    padding-top: 48px;
-    padding-bottom: 22px;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: 7.2px;
-    text-align: center; }
-  div.photo_gallery p {
-    width: 509px;
-    margin: 0 auto;
-    font-size: 12px;
-    line-height: 22px;
-    text-align: center; }
-  div.photo_gallery div.image_wrap {
-    padding-top: 42px;
-    margin: 0 auto;
-    width: 915px; }
-  div.photo_gallery img {
-    display: inline-block;
-    padding-right: 4.5px;
-    padding-bottom: 4.5px; }
-
-div.pricing {
-  height: 599px;
-  background: url("../images/pricing-gray.jpg"); }
-  div.pricing div.pricing-wrap {
-    width: 631px;
+@media screen and (min-width: 1025px) {
+  .wrapper {
+    width: 1130px;
     margin: 0 auto; }
-  div.pricing h1 {
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: 7.2px; }
-  div.pricing h1 {
-    text-align: center;
-    padding-top: 73px;
-    padding-bottom: 34px; }
-  div.pricing div.dollar {
-    padding-left: 45px; }
-  div.pricing div.pricing-text {
-    float: left;
-    background: #fff;
-    width: 197px;
-    height: 210px;
-    padding-top: 82px;
-    margin-right: 20px;
-    position: relative; }
-    div.pricing div.pricing-text p {
-      clear: both;
-      width: 133px;
-      margin: 0 auto;
+
+  header {
+    height: 102px;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 1.3px; }
+    header a {
+      color: #000; }
+    header a:visited, header a:active, header a:hover {
+      color: #000; }
+    header img {
+      float: left;
+      width: 140px;
+      padding-top: 16px; }
+    header ul {
+      float: right;
+      text-align: right;
+      font-size: 14px;
+      line-height: 29px;
+      padding-top: 49px; }
+    header li {
+      display: inline;
+      padding-left: 46px; }
+
+  div.carousel {
+    background: url("../images/F-Type-R-Coupe.jpg");
+    background-position: 0 -27px;
+    height: 470px;
+    position: relative;
+    color: #fff; }
+    div.carousel .info {
+      width: 471px;
+      height: 185px;
+      padding-top: 28px;
+      padding-left: 100px;
+      background: #18282e;
+      opacity: 0.7;
+      position: absolute;
+      top: 70px;
+      font-size: 30px;
+      line-height: 46px;
+      letter-spacing: 3.0px; }
+    div.carousel .subinfo {
+      width: 471px;
+      height: 86px;
+      padding-top: 20px;
+      padding-left: 100px;
+      position: absolute;
+      top: 284px;
+      background: #aebec5;
+      opacity: 0.7;
       font-size: 12px;
       line-height: 22px; }
-    div.pricing div.pricing-text h2, div.pricing div.pricing-text h3 {
+      div.carousel .subinfo p {
+        width: 325px; }
+    div.carousel .unselected {
+      background: url("../images/select.png");
+      background-position: 0 -16px;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 435px;
+      left: 528px; }
+    div.carousel .unselected:hover {
+      background-position: 0 0px; }
+
+  section {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    width: 931px;
+    background: #ebedef; }
+    section h1 {
+      text-align: center;
+      font-size: 40px;
+      line-height: 60.65px;
+      padding: 36px 0; }
+    section .box {
+      font-size: 12px;
+      line-height: 22px;
+      width: 310.33333px;
       float: left; }
-    div.pricing div.pricing-text h2 {
-      font-size: 60px;
-      line-height: 48px;
-      letter-spacing: 4.8px; }
-    div.pricing div.pricing-text h3 {
+      section .box p {
+        width: 280px; }
+
+  div.signup {
+    height: 426px;
+    background-image: url("../images/jaguar-signup.jpg");
+    background-color: #131d21;
+    background-blend-mode: multiply;
+    color: #fff;
+    position: relative; }
+    div.signup h1 {
+      position: absolute;
+      text-align: center;
+      top: 155px;
+      left: 286px;
+      font-size: 36px;
+      line-height: 60.65px;
+      letter-spacing: 3.36px; }
+    div.signup button {
+      position: absolute;
+      top: 228px;
+      left: 465px;
+      height: 44px;
+      width: 191px;
+      background: #687b82;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      color: #fff;
+      font-size: 24px;
+      letter-spacing: 2.4px; }
+    div.signup button:hover {
+      top: 229px;
+      left: 466px;
+      cursor: pointer; }
+
+  div.interior {
+    height: 750px; }
+    div.interior div.interior-car1 {
+      background: url("../images/interior-car1.jpg");
+      height: 375px;
+      width: 564px;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff; }
+    div.interior div.interior-car2 {
+      background: url("../images/interior-car2.jpg");
+      background-position: 0 -1px;
+      height: 375px;
+      width: 564px;
+      border-top: 1px solid #fff; }
+    div.interior div.interior-text {
+      height: 297px;
+      padding-top: 78px;
+      background: #aebec5;
+      width: 564px;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff; }
+      div.interior div.interior-text h2 {
+        font-size: 24px;
+        line-height: 48px;
+        letter-spacing: 4.32px;
+        padding-left: 90px; }
+      div.interior div.interior-text p {
+        width: 383px;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 22px; }
+    div.interior div {
+      float: left; }
+
+  div.photo_gallery {
+    height: 690px;
+    padding-bottom: 36px; }
+    div.photo_gallery h1 {
+      padding-top: 48px;
+      padding-bottom: 22px;
       font-size: 36px;
       line-height: 48px;
       letter-spacing: 7.2px;
-      padding-left: 35px; }
-    div.pricing div.pricing-text .price-arr {
-      position: absolute;
-      background: url("../images/price_arr.png");
-      height: 8px;
-      width: 15px;
-      top: 253px;
-      left: 91px; }
-  div.pricing div.pricing-text:nth-child(3) {
-    margin-right: 0; }
-  div.pricing div.membership_bottom {
-    margin-top: 87px;
-    background: #9eaeb3;
-    height: 35px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 40px;
-    letter-spacing: 0.96; }
-  div.pricing span {
-    font-size: 60px;
-    line-height: 48px;
-    letter-spacing: 4.8px; }
-  div.pricing p {
-    clear: both;
-    width: 565px;
-    font-size: 12px;
-    line-height: 22px;
-    margin: 0 auto;
-    margin-top: 43px;
-    text-align: center; }
+      text-align: center; }
+    div.photo_gallery p {
+      width: 509px;
+      margin: 0 auto;
+      font-size: 12px;
+      line-height: 22px;
+      text-align: center; }
+    div.photo_gallery div.image_wrap {
+      padding-top: 42px;
+      margin: 0 auto;
+      width: 915px; }
+    div.photo_gallery img {
+      display: inline-block;
+      padding-right: 4.5px;
+      padding-bottom: 4.5px; }
 
-footer {
-  height: 736px;
-  position: relative;
-  width: 100%; }
-  footer div.footer_content {
-    position: absolute;
-    height: 342px;
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
-    top: 0;
-    opacity: 0.9;
-    background-color: #131d21;
-    background-blend-mode: multiply; }
-    footer div.footer_content div {
-      width: 310px;
+  div.pricing {
+    height: 599px;
+    background: url("../images/pricing-gray.jpg"); }
+    div.pricing div.pricing-wrap {
+      width: 631px;
+      margin: 0 auto; }
+    div.pricing h1 {
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: 7.2px; }
+    div.pricing h1 {
+      text-align: center;
+      padding-top: 73px;
+      padding-bottom: 34px; }
+    div.pricing div.dollar {
+      padding-left: 45px; }
+    div.pricing div.pricing-text {
       float: left;
-      color: #fff; }
-      footer div.footer_content div h3 {
-        font-size: 24px;
-        line-height: 48px;
-        letter-spacing: 4.8px; }
-      footer div.footer_content div p {
-        margin-top: 12px;
+      background: #fff;
+      width: 197px;
+      height: 210px;
+      padding-top: 82px;
+      margin-right: 20px;
+      position: relative; }
+      div.pricing div.pricing-text p {
+        clear: both;
+        width: 133px;
+        margin: 0 auto;
         font-size: 12px;
         line-height: 22px; }
-      footer div.footer_content div button.tags {
-        border: 1px solid white;
-        border-radius: 2px;
-        background: rgba(255, 255, 255, 0);
-        color: #fff;
-        font-size: 18px;
-        line-height: 22px; }
-    footer div.footer_content div.tags-box {
-      padding-left: 68px;
-      width: 242px; }
-    footer div.footer_content div.contact {
-      padding-left: 69px;
-      width: 241px; }
+      div.pricing div.pricing-text h2, div.pricing div.pricing-text h3 {
+        float: left; }
+      div.pricing div.pricing-text h2 {
+        font-size: 60px;
+        line-height: 48px;
+        letter-spacing: 4.8px; }
+      div.pricing div.pricing-text h3 {
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: 7.2px;
+        padding-left: 35px; }
+      div.pricing div.pricing-text .price-arr {
+        position: absolute;
+        background: url("../images/price_arr.png");
+        height: 8px;
+        width: 15px;
+        top: 253px;
+        left: 91px; }
+    div.pricing div.pricing-text:nth-child(3) {
+      margin-right: 0; }
+    div.pricing div.membership_bottom {
+      margin-top: 87px;
+      background: #9eaeb3;
+      height: 35px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 40px;
+      letter-spacing: 0.96; }
+    div.pricing span {
+      font-size: 60px;
+      line-height: 48px;
+      letter-spacing: 4.8px; }
+    div.pricing p {
+      clear: both;
+      width: 565px;
+      font-size: 12px;
+      line-height: 22px;
+      margin: 0 auto;
+      margin-top: 43px;
+      text-align: center; }
+
+  footer {
+    height: 736px;
+    position: relative;
+    width: 100%; }
+    footer div.footer_content {
+      position: absolute;
+      height: 342px;
+      padding-top: 60px;
+      padding-left: 100px;
+      padding-right: 100px;
+      top: 0;
+      opacity: 0.9;
+      background-color: #131d21;
+      background-blend-mode: multiply; }
+      footer div.footer_content div {
+        width: 310px;
+        float: left;
+        color: #fff; }
+        footer div.footer_content div h3 {
+          font-size: 24px;
+          line-height: 48px;
+          letter-spacing: 4.8px; }
+        footer div.footer_content div p {
+          margin-top: 12px;
+          font-size: 12px;
+          line-height: 22px; }
+        footer div.footer_content div button.tags {
+          border: 1px solid white;
+          border-radius: 2px;
+          background: rgba(255, 255, 255, 0);
+          color: #fff;
+          font-size: 18px;
+          line-height: 22px; }
+      footer div.footer_content div.tags-box {
+        padding-left: 68px;
+        width: 242px; }
+      footer div.footer_content div.contact {
+        padding-left: 69px;
+        width: 241px; } }
 
 /*# sourceMappingURL=style.css.map */
