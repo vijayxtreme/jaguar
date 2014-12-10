@@ -57,7 +57,7 @@ $(function(){
 			clearInterval(timer);
 		}
 		// alert(id);
-		if(id != "contact" && id != "map" && id != "extra"){
+		if(id != "contact"){
 			$(".carousel").hide();
 			$(".mobile-all").hide();
 			$("."+id).toggle();
