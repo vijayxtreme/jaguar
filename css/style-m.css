@@ -9,42 +9,61 @@ a {
     width: 100%; }
 
   header {
-    letter-spacing: 1.3px; }
+    letter-spacing: 1.3px;
+    text-align: center;
+    position: relative; }
     header a {
       color: #000; }
     header a:visited, header a:active, header a:hover {
       color: #000; }
-    header img {
-      width: 140px;
-      padding-top: 16px; }
     header ul {
       display: none;
       font-size: 14px;
       line-height: 29px; }
+    header button.mobile_shelf {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      height: 34px;
+      width: 34px;
+      text-align: center;
+      font-size: 18px;
+      padding: 0 4px; }
 
   div.carousel {
     background: url("../images/F-Type-R-Coupe.jpg");
-    background-position: 0 -27px;
-    height: 470px;
+    background-position: -450px -130px;
     clear: both;
+    height: 240px;
+    width: 100%;
     color: #fff; }
     div.carousel .info {
-      background: #18282e;
-      opacity: 0.7; }
+      display: none; }
     div.carousel .subinfo {
-      background: #aebec5;
-      opacity: 0.7; }
+      display: none; }
     div.carousel .unselected {
-      background: url("../images/select.png");
-      background-position: 0 -16px; }
+      display: none; }
     div.carousel .unselected:hover {
-      background-position: 0 0px; }
+      display: none; }
 
   section {
+    display: none;
     background: #ebedef; }
+    section h1 {
+      text-align: center;
+      padding: 0px 0; }
+    section .box {
+      width: 90%;
+      margin: 0 auto; }
+      section .box p {
+        font-size: 0.9em;
+        text-align: center; }
 
   div.signup {
-    height: 426px;
+    display: none;
+    height: 100px;
     background-image: url("../images/jaguar-signup.jpg");
     background-color: #131d21;
     background-blend-mode: multiply;
@@ -64,35 +83,40 @@ a {
     div.signup button:hover {
       cursor: pointer; }
 
-  div.interior div.interior-car1 {
-    background: url("../images/interior-car1.jpg");
-    border-top: 1px solid #fff;
-    border-right: 1px solid #fff; }
-  div.interior div.interior-car2 {
-    background: url("../images/interior-car2.jpg");
-    background-position: 0 -1px;
-    border-top: 1px solid #fff; }
-  div.interior div.interior-text {
-    background: #aebec5;
-    border-top: 1px solid #fff;
-    border-right: 1px solid #fff; }
-    div.interior div.interior-text h2 {
-      letter-spacing: 4.32px; }
-    div.interior div.interior-text p {
-      margin: 0 auto; }
-  div.interior div {
-    float: left; }
+  div.interior {
+    display: none; }
+    div.interior div.interior-car1 {
+      background: url("../images/interior-car1.jpg");
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff; }
+    div.interior div.interior-car2 {
+      background: url("../images/interior-car2.jpg");
+      background-position: 0 -1px;
+      border-top: 1px solid #fff; }
+    div.interior div.interior-text {
+      background: #aebec5;
+      border-top: 1px solid #fff;
+      border-right: 1px solid #fff; }
+      div.interior div.interior-text h2 {
+        letter-spacing: 4.32px; }
+      div.interior div.interior-text p {
+        margin: 0 auto; }
+    div.interior div {
+      float: left; }
 
-  div.photo_gallery h1 {
-    letter-spacing: 7.2px;
-    text-align: center; }
-  div.photo_gallery p {
-    margin: 0 auto;
-    text-align: center; }
-  div.photo_gallery div.image_wrap {
-    margin: 0 auto; }
+  div.photo_gallery {
+    display: none; }
+    div.photo_gallery h1 {
+      letter-spacing: 7.2px;
+      text-align: center; }
+    div.photo_gallery p {
+      margin: 0 auto;
+      text-align: center; }
+    div.photo_gallery div.image_wrap {
+      margin: 0 auto; }
 
   div.pricing {
+    display: none;
     background: url("../images/pricing-gray.jpg"); }
     div.pricing div.pricing-wrap {
       margin: 0 auto; }
@@ -116,20 +140,45 @@ a {
       clear: both;
       text-align: center; }
 
-  footer div.footer_content {
+  div.mobile_jump_menu {
+    display: none;
+    background-color: #fff;
+    width: 100%; }
+    div.mobile_jump_menu button {
+      margin: 0;
+      padding: 0; }
+    div.mobile_jump_menu button.mobile_tab {
+      border-radius: 0px;
+      border: 1px solid #eee;
+      height: 40px;
+      width: 25%;
+      margin: 0;
+      padding: 0;
+      color: #000;
+      background-color: #fff;
+      display: inline; }
+
+  footer {
     background-color: #131d21;
     background-blend-mode: multiply;
-    width: 100%; }
-    footer div.footer_content div {
-      color: #fff; }
-      footer div.footer_content div h3 {
-        letter-spacing: 4.8px; }
-      footer div.footer_content div p {
-        line-height: 22px; }
-      footer div.footer_content div button.tags {
-        border: 1px solid white;
-        border-radius: 2px;
-        background: rgba(255, 255, 255, 0);
-        color: #fff; } }
+    height: 40px; }
+    footer div.footer_content {
+      background-color: #131d21;
+      background-blend-mode: multiply;
+      width: 100%;
+      text-align: center; }
+      footer div.footer_content div {
+        color: #fff; }
+        footer div.footer_content div h3 {
+          text-align: center;
+          padding: 10px 0;
+          letter-spacing: 4.8px; }
+        footer div.footer_content div p {
+          line-height: 22px; }
+        footer div.footer_content div button.tags {
+          border: 1px solid white;
+          border-radius: 2px;
+          background: rgba(255, 255, 255, 0);
+          color: #fff; } }
 
 /*# sourceMappingURL=style-m.css.map */
