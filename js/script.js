@@ -47,7 +47,7 @@ $(function(){
 	//Mobile Shelf
 	$(".mobile_shelf").click(function(){
 		// $("header ul").toggle();
-		$(".mobile_jump_menu").toggle();
+		$("header ul").toggle();
 	});
 
 

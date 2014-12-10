@@ -48,10 +48,10 @@
 
 	div.carousel {
 		background: url('../images/F-Type-R-Coupe.jpg');
-		background-size: 100% 240px;
+		background-size: 100% 100%;
 		background-position: 0px 0px;
 		clear:both;
-		height:240px;
+		height:211px;
 		width:100%;
 		color: #fff;
 	
@@ -256,7 +256,7 @@
 
 
 	div.mobile_jump_menu {
-		display: none;
+		display:block;
 		background-color: #fff;
 		width: 100%;
 		
@@ -295,7 +295,7 @@
 				text-align: center;
 			
 			div {
-
+				
 				color: #fff;
 
 				h3 {
@@ -305,11 +305,15 @@
 				}
 
 				p {
-					
+					font-size:12px;
 					line-height: 22px;
+					width: 90%;
+					margin: 0 auto;
 				}
 
-
+				hr {
+					display: none;
+				}
 
 				button.tags {
 					border:1px solid white;
@@ -321,10 +325,10 @@
 			}
 
 			div.tags-box {
-			
+				display:none;
 			}
 			div.contact {
-
+				display: none;
 			}
 
 		}
