@@ -37,7 +37,8 @@ div.mobile_jump_menu {
 
   div.carousel {
     background: url("../images/F-Type-R-Coupe.jpg");
-    background-position: -450px -130px;
+    background-size: 100% 240px;
+    background-position: 0px 0px;
     clear: both;
     height: 240px;
     width: 100%;
