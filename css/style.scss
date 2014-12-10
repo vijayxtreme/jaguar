@@ -1,0 +1,413 @@
+@import 'meyer-reset';
+@import 'base';
+
+@media screen and (min-width:1025px) {
+	
+	.wrapper {
+		width:1130px;
+		margin: 0 auto;
+	}
+
+	header {
+		height: 102px;
+		padding-left: 100px;
+		padding-right:100px;
+		letter-spacing: 1.3px;
+		
+		a {
+			color: #000;
+			
+		}
+		a:visited, a:active, a:hover {
+			color: #000;
+		}
+		
+
+		img {
+			float: left;
+			width: 140px;
+			padding-top:16px;
+		}
+
+		ul {
+			float: right;
+			text-align: right;
+			font-size: 14px;
+			line-height: 29px;
+			padding-top:49px;
+		}
+
+		li {
+			display: inline;
+			padding-left: 46px;
+			
+
+		}
+	}
+
+	button.mobile_shelf{display:none;}
+
+
+	div.carousel {
+		background: url('../images/F-Type-R-Coupe.jpg');
+		background-position: 0 -27px;
+		height: 470px;
+		position: relative;
+		color: #fff;
+		
+		.info {
+			width: 471px;
+			height: 185px;
+			padding-top:28px;
+			padding-left:100px;
+			background: #18282e;
+			opacity: 0.7;
+			position: absolute;
+			top:70px;
+			font-size: 30px;
+			line-height: 46px;
+			letter-spacing: 3.0px;
+
+		}
+		.subinfo {
+			width: 471px;
+			height: 86px;
+			padding-top:20px;
+			padding-left:100px;
+			position: absolute;
+			top:284px;
+			background: #aebec5;
+			opacity: 0.7;
+			font-size: 12px;
+			line-height: 22px;
+
+			p {
+				width: 325px;
+			}
+		}
+
+		.unselected {
+			background: url('../images/select.png');
+			background-position:0 -16px;
+			width: 16px;
+			height:16px;
+			position: absolute;
+			top:435px;
+			left:528px;
+		}
+		.unselected:hover{
+			background-position:0 0px;
+		}
+
+	}
+
+	section {
+		$width: 931px;
+		padding-left:100px;
+		padding-right: 100px;
+		padding-bottom: 60px;
+		width: $width;
+		background: #ebedef;
+
+		h1{
+			text-align: center;
+			font-size:40px;
+			line-height:60.65px;
+			padding: 36px 0;
+		}
+
+		.box {
+
+			font-size:12px;
+			line-height: 22px;
+			width: $width / 3;
+			float: left;
+		
+			p{
+				width:280px;
+			}
+		}
+	}
+
+	div.signup {
+
+		height: 426px; 
+		background-image: url('../images/jaguar-signup.jpg');
+		background-color: #131d21;
+		background-blend-mode: multiply;
+		color: #fff;
+		position: relative;
+
+		h1{
+			position:absolute;
+			text-align: center;
+			top:155px;
+			left:286px;
+			font-size:36px;
+			line-height: 60.65px;
+			letter-spacing: 3.36px;
+		}
+		button {
+			position: absolute;
+			top:228px;
+			left:465px;
+			height:44px;
+			width:191px;
+			background: #687b82;
+			border-radius:5px;
+			border:1px solid #fff;
+			color: #fff;
+			font-size:24px;
+			letter-spacing: 2.4px;
+		}
+		button:hover {
+			top:229px;
+			left:466px;
+			cursor: pointer;
+		}
+	}
+
+	div.interior {
+		height:750px;
+		
+
+		div.interior-car1 {
+			background:url('../images/interior-car1.jpg');
+			height:375px;
+			width: 564px;
+			border-top:1px solid #fff;
+			border-right:1px solid #fff;
+		}
+		div.interior-car2 {
+			background:url('../images/interior-car2.jpg');
+			background-position: 0 -1px;
+			height:375px;
+			width: 564px;
+			border-top:1px solid #fff;
+		}
+		div.interior-text {
+			height:297px;
+			padding-top:78px;
+			background: #aebec5;
+			width: 564px;
+			border-top:1px solid #fff;
+			border-right:1px solid #fff;
+
+			h2{
+				font-size:24px;
+				line-height: 48px;
+				letter-spacing: 4.32px;
+				padding-left:90px;
+			}
+
+			p {
+				width: 383px;
+				margin:0 auto;
+				font-size:12px;
+				line-height: 22px;
+			}
+		}
+
+		div {
+			
+			float:left;
+		}
+
+	}
+
+	div.photo_gallery{
+
+		height:690px;
+		padding-bottom:36px;
+		h1 {
+			padding-top:48px;
+			padding-bottom:22px;
+			font-size:36px;
+			line-height: 48px;
+			letter-spacing: 7.2px;
+			text-align: center;
+		}
+		p {
+			width: 509px;
+			margin: 0 auto;
+			font-size: 12px;
+			line-height: 22px;
+			text-align: center;
+
+		}
+
+		div.image_wrap {
+			padding-top:42px;
+			margin: 0 auto;
+			width: 915px;
+		}
+		img {
+			display:inline-block;
+			padding-right:4.5px;
+			padding-bottom:4.5px;
+		}
+	}
+
+	div.pricing {
+		height:599px;
+		background:url('../images/pricing-gray.jpg');
+
+		div.pricing-wrap {
+			width:631px;
+			margin: 0 auto;
+		}
+
+		h1 {
+			font-size: 36px;
+			line-height: 48px;
+			letter-spacing: 7.2px;
+		}
+		h1 {
+			text-align:center;
+			padding-top:73px;
+			padding-bottom:34px;
+		}
+		div.dollar {
+			padding-left:45px;
+		}
+
+
+		div.pricing-text {
+			float: left; 
+			background: #fff;
+			width:197px;
+			height:210px;
+			padding-top:82px;
+			margin-right:20px;
+			position: relative;
+
+			p {
+				clear:both;
+				width: 133px;
+				margin:0 auto;
+				font-size: 12px;
+				line-height: 22px;
+
+			}
+
+			h2, h3 {
+				float: left;
+			}
+
+			h2 {
+				font-size: 60px;
+				line-height: 48px;
+				letter-spacing: 4.8px;
+			}
+
+			h3 {
+				font-size: 36px;
+				line-height: 48px;
+				letter-spacing: 7.2px;
+				padding-left:35px;
+			}
+
+			.price-arr {
+				position: absolute;
+				background: url('../images/price_arr.png');
+				height:8px;
+				width:15px;
+				top: 253px;
+				left:91px;
+			}
+
+		}
+		div.pricing-text:nth-child(3){
+			margin-right:0;
+		}
+
+		div.membership_bottom {
+			margin-top:87px;
+			background: #9eaeb3;
+			height:35px;
+			text-align: center;
+			font-size:12px;
+			line-height: 40px;
+			letter-spacing: 0.96
+
+		}
+
+		
+		span {
+			font-size:60px;
+			line-height: 48px;
+			letter-spacing: 4.8px;
+		}
+
+		p {
+			clear:both;
+			width: 565px;
+			font-size: 12px;
+			line-height: 22px;
+			margin: 0 auto;
+			margin-top:43px;
+			text-align: center;
+		}
+
+	}
+
+	footer {
+		$width: 930px;
+		height:736px;
+		position:relative;
+		width:100%;
+
+		div.footer_content {
+			position: absolute;
+			height:342px;
+			padding-top:60px;
+			padding-left:100px;
+			padding-right: 100px;
+			top:0;
+			opacity:0.9;
+			background-color: #131d21;
+			background-blend-mode: multiply;
+			
+			
+			div {
+				width: $width / 3;
+				float: left;
+				color: #fff;
+
+				h3 {
+					font-size:24px;
+					line-height: 48px;
+					letter-spacing: 4.8px;
+				}
+
+				p {
+					margin-top:12px;
+					font-size:12px;
+					line-height: 22px;
+				}
+
+
+
+				button.tags {
+					border:1px solid white;
+					border-radius:2px;
+					background:  rgba(255, 255, 255, 0);
+					color: #fff;
+					font-size: 18px;
+					line-height: 22px;
+				}
+			}
+
+			div.tags-box {
+				padding-left:68px;
+				width: 242px;
+			}
+			div.contact {
+				padding-left:69px;
+				width: 241px;
+			}
+
+		}
+	}
+
+}

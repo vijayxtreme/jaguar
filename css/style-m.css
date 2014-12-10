@@ -4,6 +4,9 @@ body {
 a {
   text-decoration: none; }
 
+div.mobile_jump_menu {
+  display: none; }
+
 @media screen and (max-width: 1024px) {
   .wrapper {
     width: 100%; }
