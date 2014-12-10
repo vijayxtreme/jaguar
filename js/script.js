@@ -43,12 +43,28 @@ $(function(){
 
 	}
 
-
 	//Mobile Shelf
 	$(".mobile_shelf").click(function(){
 		// $("header ul").toggle();
 		$("header ul").toggle();
 	});
+
+	//Mobile Change Template
+
+	$(".mobile_tab").click(function(){
+		var id = $(this).attr('id');
+		if(timer){
+			clearInterval(timer);
+		}
+		// alert(id);
+		if(id != "contact" && id != "map" && id != "extra"){
+			$(".carousel").hide();
+			$(".mobile-all").hide();
+			$("."+id).toggle();
+		}
+
+
+	})
 
 
 });

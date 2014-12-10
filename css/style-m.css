@@ -21,8 +21,8 @@ div.mobile_jump_menu {
       color: #000; }
     header ul {
       display: none;
-      font-size: 14px;
-      line-height: 29px; }
+      font-size: 0.9em;
+      line-height: 1.8em; }
     header button.mobile_shelf {
       position: absolute;
       top: 10px;
@@ -34,51 +34,78 @@ div.mobile_jump_menu {
       text-align: center;
       font-size: 18px;
       padding: 0 4px; }
+    header br {
+      display: none; }
 
   div.carousel {
     background: url("../images/F-Type-R-Coupe.jpg");
     background-size: 100% 100%;
     background-position: 0px 0px;
     clear: both;
-    height: 211px;
+    height: 280px;
     width: 100%;
-    color: #fff; }
+    color: #fff;
+    position: relative; }
     div.carousel .info {
-      display: none; }
+      position: absolute;
+      top: 20px;
+      width: 45%;
+      padding-left: 3%;
+      font-size: 0.9em;
+      background: #18282e;
+      opacity: 0.7; }
     div.carousel .subinfo {
-      display: none; }
+      position: absolute;
+      width: 45%;
+      padding-left: 3%;
+      background: #aebec5;
+      opacity: 0.7;
+      top: 80px; }
+      div.carousel .subinfo p {
+        font-size: 0.6em; }
     div.carousel .unselected {
       display: none; }
     div.carousel .unselected:hover {
       display: none; }
 
-  section {
+  section.jaguar-f-type {
     display: none;
-    background: #ebedef; }
-    section h1 {
+    background: #ebedef;
+    height: 280px; }
+    section.jaguar-f-type h1 {
       text-align: center;
       padding: 0px 0; }
-    section .box {
+    section.jaguar-f-type .box {
       width: 90%;
       margin: 0 auto; }
-      section .box p {
+      section.jaguar-f-type .box p {
         font-size: 0.9em;
         text-align: center; }
 
   div.signup {
+    height: 280px;
     display: none;
-    height: 100px;
     background-image: url("../images/jaguar-signup.jpg");
+    background-size: 100% 100%;
     background-color: #131d21;
     background-blend-mode: multiply;
     color: #fff;
-    position: relative; }
+    position: relative;
+    text-align: center; }
     div.signup h1 {
+      font-size: 12px;
       position: absolute;
+      top: 80px;
+      width: 100%;
       text-align: center;
       letter-spacing: 3.36px; }
     div.signup button {
       position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -95.5px;
+      height: 44px;
+      width: 191px;
       background: #687b82;
       border-radius: 5px;
       border: 1px solid #fff;
@@ -88,59 +115,110 @@ div.mobile_jump_menu {
       cursor: pointer; }
 
   div.interior {
+    height: 280px;
     display: none; }
     div.interior div.interior-car1 {
       background: url("../images/interior-car1.jpg");
+      background-size: 100% 100%;
+      height: 49.6%;
       border-top: 1px solid #fff;
-      border-right: 1px solid #fff; }
+      border-right: 1px solid #fff;
+      width: 49.6%; }
     div.interior div.interior-car2 {
       background: url("../images/interior-car2.jpg");
-      background-position: 0 -1px;
+      background-size: 100% 100%;
+      height: 49.6%;
+      width: 49.6%;
+      background-position: 0 0px;
       border-top: 1px solid #fff; }
     div.interior div.interior-text {
       background: #aebec5;
+      height: 49.6%;
+      width: 49.6%;
       border-top: 1px solid #fff;
-      border-right: 1px solid #fff; }
+      border-right: 1px solid #fff;
+      overflow: auto; }
       div.interior div.interior-text h2 {
+        font-size: 0.5em;
+        text-align: center;
         letter-spacing: 4.32px; }
       div.interior div.interior-text p {
+        font-size: 0.2em;
+        line-height: 1.0em;
+        width: 90%;
         margin: 0 auto; }
     div.interior div {
       float: left; }
 
   div.photo_gallery {
+    min-height: 280px;
+    text-align: center;
     display: none; }
     div.photo_gallery h1 {
+      font-size: 12px;
       letter-spacing: 7.2px;
       text-align: center; }
     div.photo_gallery p {
+      font-size: 11px;
+      text-align: center;
       margin: 0 auto;
-      text-align: center; }
+      width: 90%; }
     div.photo_gallery div.image_wrap {
-      margin: 0 auto; }
+      margin-top: 15px; }
+    div.photo_gallery img {
+      width: 23%;
+      height: 23%; }
 
   div.pricing {
+    min-height: 280px;
     display: none;
-    background: url("../images/pricing-gray.jpg"); }
-    div.pricing div.pricing-wrap {
-      margin: 0 auto; }
+    background: url("../images/pricing-gray.jpg");
+    background-size: 100% 100%;
+    padding-top: 10px; }
     div.pricing h1 {
+      font-size: 12px;
       letter-spacing: 7.2px; }
     div.pricing h1 {
       text-align: center; }
     div.pricing div.pricing-text {
       background: #fff;
-      position: relative; }
+      position: relative;
+      width: 30%;
+      height: 200px;
+      float: left;
+      margin: 0 1.3%;
+      margin-top: 10px; }
       div.pricing div.pricing-text p {
-        clear: both; }
+        font-size: 11px;
+        clear: both;
+        text-align: center; }
       div.pricing div.pricing-text h2, div.pricing div.pricing-text h3 {
         float: left; }
+      div.pricing div.pricing-text h2 {
+        font-size: 36px;
+        padding-left: 21%; }
+      div.pricing div.pricing-text h3 {
+        position: absolute;
+        left: 6%;
+        top: 10px;
+        font-size: 22px; }
       div.pricing div.pricing-text .price-arr {
         position: absolute;
+        top: 164px;
+        left: 40%;
+        height: 8px;
+        width: 15px;
         background: url("../images/price_arr.png"); }
-    div.pricing div.membership_bottom {
-      background: #9eaeb3; }
+      div.pricing div.pricing-text div.membership_bottom {
+        position: absolute;
+        top: 172px;
+        width: 100%;
+        background: #9eaeb3;
+        font-size: 0.8em;
+        text-align: center; }
     div.pricing p {
+      padding: 10px 0;
+      font-size: 0.7em;
       clear: both;
       text-align: center; }
 
@@ -178,10 +256,8 @@ div.mobile_jump_menu {
           padding: 10px 0;
           letter-spacing: 4.8px; }
         footer div.footer_content div p {
-          font-size: 12px;
-          line-height: 22px;
-          width: 90%;
-          margin: 0 auto; }
+          font-size: 11px;
+          line-height: 18px; }
         footer div.footer_content div hr {
           display: none; }
         footer div.footer_content div button.tags {
@@ -190,8 +266,6 @@ div.mobile_jump_menu {
           background: rgba(255, 255, 255, 0);
           color: #fff; }
       footer div.footer_content div.tags-box {
-        display: none; }
-      footer div.footer_content div.contact {
         display: none; } }
 
 /*# sourceMappingURL=style-m.css.map */
