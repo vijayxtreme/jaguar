@@ -43,6 +43,17 @@ $(function(){
 
 	}
 
+	//Scroll Past Carousel (Desktop Only)
+	var topofDiv = $("#carousel").offset().top;
+	$(window).scroll(function(){
+	    if($(window).scrollTop() > topofDiv){
+	       $("header#fixed").show();
+	    }
+	    else{
+	       $("header#fixed").hide();
+	    }
+	});
+
 	//Mobile Swipes
 	var swipeCount = 0;
 	var myElement = document.getElementById("carousel");
