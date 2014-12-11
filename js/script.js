@@ -44,9 +44,11 @@ $(function(){
 	}
 
 	//Scroll Past Carousel (Desktop Only)
+
+	var w = $(window).width();
 	var topofDiv = $("#carousel").offset().top;
 	$(window).scroll(function(){
-	    if($(window).scrollTop() > topofDiv){
+	    if($(window).scrollTop() > topofDiv && (w > 1024)){
 	       $("header#fixed").show();
 	    }
 	    else{
@@ -90,7 +92,7 @@ $(function(){
 
 	//Fix for Pricing (if bigger than iPhone 5)
 	if($("body").width() > 667) {
-		$("div.membership_bottom").css("font-size", "0.5em");
+		//$("div.membership_bottom").css("font-size", "0.5em");
 	}
 
 	//Mobile Change Template

@@ -303,16 +303,16 @@ header#fixed {
         width: 15px;
         top: 253px;
         left: 91px; }
+      div.pricing div.pricing-text div.membership_bottom {
+        margin-top: 87px;
+        background: #9eaeb3;
+        height: 35px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 40px;
+        letter-spacing: 0.96; }
     div.pricing div.pricing-text:nth-child(3) {
       margin-right: 0; }
-    div.pricing div.membership_bottom {
-      margin-top: 87px;
-      background: #9eaeb3;
-      height: 35px;
-      text-align: center;
-      font-size: 12px;
-      line-height: 40px;
-      letter-spacing: 0.96; }
     div.pricing span {
       font-size: 60px;
       line-height: 48px;
