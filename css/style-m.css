@@ -7,7 +7,7 @@ a {
 div.mobile_jump_menu {
   display: none; }
 
-iframe.mobile-map {
+iframe.map {
   display: none; }
 
 @media screen and (max-width: 1024px) {
@@ -261,6 +261,9 @@ iframe.mobile-map {
     height: 310px;
     width: 100%;
     margin: 0; }
+
+  iframe.desktop {
+    display: none; }
 
   footer {
     background-color: #131d21;

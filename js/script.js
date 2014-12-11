@@ -57,11 +57,23 @@ $(function(){
 			clearInterval(timer);
 		}
 		// alert(id);
-		if(id != "contact"){
+		
+		if(id=="contact"){
+			$(".contact").ScrollTo({
+				duration:200,
+				easing: 'linear'
+			});
+		}else{
+			$("body").ScrollTo({
+				duration:200,
+				easing: 'linear'
+			});
 			$(".carousel").hide();
 			$(".mobile-all").hide();
 			$("."+id).toggle();
 		}
+
+
 
 
 	})
