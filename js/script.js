@@ -43,11 +43,44 @@ $(function(){
 
 	}
 
+	//Mobile Swipes
+	var swipeCount = 0;
+	var myElement = document.getElementById("carousel");
+	var hammertime = new Hammer(myElement);
+	hammertime.on('swipe', function(ev) {
+		if(swipeCount < arrImg.length){
+			$(".carousel").css("background-image", function(){
+				return 'url(\'images/'+arrImg[swipeCount]+'\')';	
+			});
+			$(".unselected").css("background-position","0 -16px");
+			$(".unselected").eq(swipeCount).css("background-position","0 0");
+			swipeCount++;
+		}else {
+			swipeCount = 0;
+			$(".unselected").css("background-position","0 -16px");
+			$(".unselected").eq(swipeCount).css("background-position","0 0");
+			$(".carousel").css("background-image", function(){
+				return 'url(\'images/'+arrImg[swipeCount]+'\')';	
+			});
+		}
+
+	});
+
+	$(".carousel").swipeleft
+	if(timer){
+		clearInterval(timer);
+	}
+
 	//Mobile Shelf
 	$(".mobile_shelf").click(function(){
 		// $("header ul").toggle();
 		$("header ul").toggle();
 	});
+
+	//Fix for Pricing (if bigger than iPhone 5)
+	if($("body").width() > 667) {
+		$("div.membership_bottom").css("font-size", "0.5em");
+	}
 
 	//Mobile Change Template
 

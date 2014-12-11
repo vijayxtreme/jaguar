@@ -108,6 +108,10 @@ iframe.map {
       left: 528px; }
     div.carousel .unselected:hover {
       background-position: 0 0px; }
+    div.carousel .desktopun {
+      left: 555px; }
+    div.carousel .desktopun1 {
+      left: 583px; }
 
   section {
     padding-left: 100px;

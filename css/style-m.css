@@ -67,9 +67,19 @@ iframe.map {
       div.carousel .subinfo p {
         font-size: 0.6em; }
     div.carousel .unselected {
-      display: none; }
-    div.carousel .unselected:hover {
-      display: none; }
+      background: url("../images/select.png");
+      background-position: 0 -16px;
+      position: absolute;
+      z-index: 10;
+      top: 250px;
+      left: 50%;
+      margin-left: -35px;
+      height: 16px;
+      width: 16px; }
+    div.carousel .mobileun {
+      margin-left: -5px; }
+    div.carousel .mobileun1 {
+      margin-left: 25px; }
 
   section.jaguar-f-type {
     display: none;
@@ -190,8 +200,8 @@ iframe.map {
     div.pricing div.pricing-text {
       background: #fff;
       position: relative;
-      width: 30%;
-      height: 200px;
+      width: 30.66667%;
+      height: 140px;
       float: left;
       margin: 0 1.3%;
       margin-top: 10px; }
@@ -217,15 +227,15 @@ iframe.map {
         font-size: 1.6em; }
       div.pricing div.pricing-text .price-arr {
         position: absolute;
-        top: 182px;
+        top: 122px;
         left: 50%;
-        margin-left: -5%;
+        margin-left: -5.33333%;
         height: 8px;
         width: 15px;
         background: url("../images/price_arr.png"); }
       div.pricing div.pricing-text div.membership_bottom {
         position: absolute;
-        top: 190px;
+        top: 130px;
         width: 100%;
         background: #9eaeb3;
         font-size: 0.6em;
@@ -235,6 +245,7 @@ iframe.map {
       font-size: 0.7em;
       width: 90%;
       margin: 0 auto;
+      margin-top: 10px;
       clear: both;
       text-align: center; }
 
